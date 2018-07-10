@@ -10,5 +10,9 @@ public class Test {
 		A a = new B();
 		
 		a.print();
+		System.out.println("x = before "+a.x);
+//		a.x = 9;
+		
+		System.out.println("x = after "+a.x);
 	}
 }

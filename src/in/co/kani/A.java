@@ -2,11 +2,20 @@ package in.co.kani;
 
 public class A {
 
-	public static final int x;
+	public final int x;
 	
-	static 
+/*	static 
 	{
 		x =10;
+	}*/
+	
+	{
+		 x = 0;
+	}
+	
+	public A()
+	{
+		
 	}
 	
 	public A(int x1) {
@@ -24,7 +33,7 @@ public class A {
 		
 //		The final field A.x cannot be assigned
 		
-		A.x = 10;
+//		A.x = 10;
 	}
 	
 }
